@@ -1,12 +1,12 @@
-function Pizza(props) {
+function Pizza({ pizzaObj }) {
   return (
     <>
       <li className="pizza">
-        <img src={props.pizzaObj.photoName} alt={props.pizzaObj.name} />
+        <img src={pizzaObj.photoName} alt={pizzaObj.name} />
         <div>
-          <h2>{props.pizzaObj.name}</h2>
-          <p> {props.pizzaObj.ingredients} </p>
-          <span>{props.pizzaObj.price}</span>
+          <h2>{pizzaObj.name}</h2>
+          <p> {pizzaObj.ingredients} </p>
+          <span className="price">{pizzaObj.price}€</span>
         </div>
       </li>
     </>

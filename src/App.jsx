@@ -3,6 +3,7 @@ import Menu from './components/Menu';
 import Footer from './components/Footer';
 import { useState } from 'react';
 
+
 function App() {
   const [search, setSearch] = useState('');
   const searchHandler = (e) => {

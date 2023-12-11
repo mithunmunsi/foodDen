@@ -2,7 +2,7 @@ const Header = (props) => {
   return (
     <header>
       <div>
-        <img src="./src/assets/logo.png" alt="logo" className="logo" />
+        <img src="/logo.png" alt="logo" className="logo" />
       </div>
       <div className="search-grp">
         <span className="material-symbols-outlined search-icon">search</span>
@@ -14,8 +14,8 @@ const Header = (props) => {
         />
       </div>
       <div>
-        <button className="btn">Home</button>
-        <button className="btn">About us</button>
+        <button className="navBtn">Home</button>
+        <button className="navBtn">About us</button>
       </div>
       <span className="material-symbols-outlined shopping_cart">
         shopping_cart

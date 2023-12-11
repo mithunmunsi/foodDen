@@ -20,6 +20,9 @@ const Footer = () => {
             We are happily open between {openHour}:00 and {closeHour}:00
           </p>
         )}
+        <span className="copyright">
+          Copyright &copy; 2023. All Rights Reserved by GAS Coders
+        </span>
       </footer>
     </>
   );
